@@ -1,0 +1,34 @@
+
+STA System Admin
+manmeets/Summer@1
+
+QA STA System Admin
+manmeets/Summer@2
+
+STA Portal Admin
+admin/admin..
+
+
+STA Portal User 
+Mary1@sta.com/Capita@1234
+vilas.khairnar@capita.co.uk/Test@01234
+pupiltesting2@sta.com/Capita@123456789
+manmeet.singh@capita.co.uk/Testing@2
+Paritosh.Medheka@capita.co.uk/123@Capita
+
+UserId:Manthan.soni@capita.co.uk
+Password: Testing@2
+
+
+STA user
+Paritosh.medhekarSTA@capita.co.uk/Capita@1
+
+
+STA Case Manager 
+VilasK/Capita@123
+
+
+Automation Portal User 
+AutomationSTAUser@sta.co.uk/Testing@1
+
+

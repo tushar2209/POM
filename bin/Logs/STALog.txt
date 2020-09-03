@@ -1,0 +1,17 @@
+2018-11-25 15:56:03,026 [NonParallelWorker] INFO  STA__Automation.BaseLib.BaseClass -  Before  Execution start call
+2018-11-25 15:56:03,242 [NonParallelWorker] INFO  STA__Automation.BaseLib.BaseClass - Test method setup started
+2018-11-25 15:56:10,833 [NonParallelWorker] INFO  STA__Automation.BaseLib.BaseClass - Chrome browser invoked.
+2018-11-25 15:56:12,218 [NonParallelWorker] INFO  STA__Automation.BaseLib.BaseClass - launch application
+2018-11-25 15:56:28,123 [NonParallelWorker] INFO  STA__Automation.BaseLib.BaseClass - Login to application
+2018-11-25 15:56:28,124 [NonParallelWorker] INFO  STA__Automation.CommonLib.CommonFunctions - Entering Username and Password.
+2018-11-25 15:56:30,318 [NonParallelWorker] INFO  STA__Automation.BaseLib.BaseClass -  After Test Method Execution method call
+2018-11-25 15:56:30,814 [NonParallelWorker] INFO  STA__Automation.BaseLib.BaseClass -  After  Execution end call
+2018-11-25 16:26:28,764 [15] INFO  STA__Automation.BaseLib.BaseClass -  Before  Execution start call
+2018-11-25 16:28:32,788 [NonParallelWorker] INFO  STA__Automation.BaseLib.BaseClass -  Before  Execution start call
+2018-11-25 16:28:32,983 [NonParallelWorker] INFO  STA__Automation.BaseLib.BaseClass - Test method setup started
+2018-11-25 16:28:39,746 [NonParallelWorker] INFO  STA__Automation.BaseLib.BaseClass - Chrome browser invoked.
+2018-11-25 16:28:41,001 [NonParallelWorker] INFO  STA__Automation.BaseLib.BaseClass - launch application
+2018-11-25 16:28:50,660 [NonParallelWorker] INFO  STA__Automation.BaseLib.BaseClass - Login to application
+2018-11-25 16:28:50,660 [NonParallelWorker] INFO  STA__Automation.CommonLib.CommonFunctions - Entering Username and Password.
+2018-11-25 16:28:52,686 [NonParallelWorker] INFO  STA__Automation.BaseLib.BaseClass -  After Test Method Execution method call
+2018-11-25 16:28:53,118 [NonParallelWorker] INFO  STA__Automation.BaseLib.BaseClass -  After  Execution end call

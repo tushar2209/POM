@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\NUnit.3.11.0\build\NUnit.props" Condition="Exists('..\packages\NUnit.3.11.0\build\NUnit.props')" />
+  <Import Project="..\packages\NUnit3TestAdapter.3.11.1\build\net35\NUnit3TestAdapter.props" Condition="Exists('..\packages\NUnit3TestAdapter.3.11.1\build\net35\NUnit3TestAdapter.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7EE51B8F-FFB9-4D14-96CE-B5391056D644}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>STA__Automation</RootNamespace>
+    <AssemblyName>STA _Automation</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Excel, Version=2.1.2.3, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.2.1.2.3\lib\net45\Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=3.11.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.11.0\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="RazorEngine, Version=3.9.0.0, Culture=neutral, PublicKeyToken=9ee697374c7e744a, processorArchitecture=MSIL">
+      <HintPath>..\packages\RazorEngine.3.9.0\lib\net45\RazorEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="RelevantCodes.ExtentReports, Version=1.4.9.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExtentReports.2.41.0\lib\RelevantCodes.ExtentReports.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.0.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.0.0\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebDriver, Version=3.141.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.WebDriver.3.141.0\lib\net45\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=3.141.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.Support.3.141.0\lib\net45\WebDriver.Support.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseLib\BaseClass.cs" />
+    <Compile Include="BaseLib\BaseTestClass.cs" />
+    <Compile Include="BaseLib\Enums.cs" />
+    <Compile Include="BussinessLib\AdditionalTimeLib.cs" />
+    <Compile Include="BussinessLib\BecomeMarkerLib.cs" />
+    <Compile Include="BussinessLib\ChangeOrganisationSchoolLib.cs" />
+    <Compile Include="BussinessLib\CM_UploadDocumentLib.cs" />
+    <Compile Include="BussinessLib\CM_UploadTestMaterialLib.cs" />
+    <Compile Include="BussinessLib\CM_UserCreationLib.cs" />
+    <Compile Include="BussinessLib\CompensatoryMarksLib.cs" />
+    <Compile Include="BussinessLib\ConfirmHolidayDatesLib.cs" />
+    <Compile Include="BussinessLib\CreateMarkerLib.cs" />
+    <Compile Include="BussinessLib\CreateSchoolUserLib.cs" />
+    <Compile Include="BussinessLib\EarlyOpeningApplicationLib.cs" />
+    <Compile Include="BussinessLib\EventLogsOfDownloadLib.cs" />
+    <Compile Include="BussinessLib\KS2HeadteachersDeclarationFormLib.cs" />
+    <Compile Include="BussinessLib\KSOneTestOrderLib.cs" />
+    <Compile Include="BussinessLib\KSTwoTestOrderLib.cs" />
+    <Compile Include="BussinessLib\MarkerTrainingConfirmationLib.cs" />
+    <Compile Include="BussinessLib\ManagePupilRegistrationLib.cs" />
+    <Compile Include="BussinessLib\LodgeComplaint.cs" />
+    <Compile Include="BussinessLib\ModifiedKS2Lib.cs" />
+    <Compile Include="BussinessLib\MaintainingLALib.cs" />
+    <Compile Include="BussinessLib\ModifiedKSOneTestOrderLib.cs" />
+    <Compile Include="BussinessLib\NotificationScribeTranscriptLib.cs" />
+    <Compile Include="BussinessLib\PhonicsZeroOrderLib.cs" />
+    <Compile Include="BussinessLib\OperationalIncResolutionLib.cs" />
+    <Compile Include="BussinessLib\OutBoundCustomerContactLib.cs" />
+    <Compile Include="BussinessLib\PortalLib.cs" />
+    <Compile Include="BussinessLib\PupilCheatingLib.cs" />
+    <Compile Include="BussinessLib\ScaningExceptionLib.cs" />
+    <Compile Include="BussinessLib\ScaningResolutionLib.cs" />
+    <Compile Include="BussinessLib\SpecialConsiderationLib.cs" />
+    <Compile Include="BussinessLib\SQAPortalContactManagementLib.cs" />
+    <Compile Include="BussinessLib\TimeTableVariationLib.cs" />
+    <Compile Include="BussinessLib\ViewKS1KS2TestMaterialLib.cs" />
+    <Compile Include="CommonLib\CommonConstants.cs" />
+    <Compile Include="CommonLib\CommonFunctions.cs" />
+    <Compile Include="BaseLib\ReportGenerator.cs" />
+    <Compile Include="CommonLib\SeleniumCommFunctions.cs" />
+    <Compile Include="Pages\Forms\AdditionalTimePage.cs" />
+    <Compile Include="Pages\Forms\BecomeMarkerPage.cs" />
+    <Compile Include="Pages\Forms\CmUploadTestMaterialPage.cs" />
+    <Compile Include="Pages\Forms\CM_ContactDetailsPage.cs" />
+    <Compile Include="Pages\Forms\CM_UploadDocumentPage.cs" />
+    <Compile Include="Pages\Forms\CM_UserCreationPage.cs" />
+    <Compile Include="Pages\Forms\CompensatoryMarksPage.cs" />
+    <Compile Include="Pages\Forms\ComplaintResolution.cs" />
+    <Compile Include="Pages\Forms\ConfirmHolidayDatesPage.cs" />
+    <Compile Include="Pages\Forms\CreateMarkerPage.cs" />
+    <Compile Include="Pages\Forms\CreateSchoolUserPage.cs" />
+    <Compile Include="Pages\Forms\EarlyOpeningApplicationPage.cs" />
+    <Compile Include="Pages\Forms\EventLogsOfDownloadPage.cs" />
+    <Compile Include="Pages\Forms\IwebElement.cs" />
+    <Compile Include="Pages\Forms\KS2HeadTeacherDecPage.cs" />
+    <Compile Include="Pages\Forms\KSOneTestOrderPage.cs" />
+    <Compile Include="Pages\Forms\KSTwoTestOrderPage.cs" />
+    <Compile Include="Pages\Forms\MarkerTrainingConfirmationPage.cs" />
+    <Compile Include="Pages\Forms\ModifiedKSOneTestOrderPage.cs" />
+    <Compile Include="Pages\Forms\ManagePupilRegistrationPage.cs" />
+    <Compile Include="Pages\Forms\LodgeComplaintPage.cs" />
+    <Compile Include="Pages\Forms\MoreInfromationCommPage.cs" />
+    <Compile Include="Pages\Forms\ChangeOrganisationSchoolPage.cs" />
+    <Compile Include="Pages\Forms\MaintainingLAPage.cs" />
+    <Compile Include="Pages\Forms\NotificationScribeTranscriptPage.cs" />
+    <Compile Include="Pages\Forms\CmLoginPage.cs" />
+    <Compile Include="Pages\Forms\ModifiedKS2Page.cs" />
+    <Compile Include="Pages\Forms\PhonicsZeroOrderPage.cs" />
+    <Compile Include="Pages\Forms\OperationalIncResolutionPage.cs" />
+    <Compile Include="Pages\Forms\OutBoundCustomerContactPage.cs" />
+    <Compile Include="Pages\Forms\PupilCheatingPage.cs" />
+    <Compile Include="Pages\Forms\ReviewAndSubmitCommonPage.cs" />
+    <Compile Include="Pages\Forms\Scaning_ResolutionPage.cs" />
+    <Compile Include="Pages\Forms\Scanning_ExceptionPage.Cs" />
+    <Compile Include="Pages\Forms\SpecialConsiderationPage.cs" />
+    <Compile Include="Pages\Forms\SQAPortalContactManagementPage.cs" />
+    <Compile Include="Pages\Forms\StartApplicationCommonPage.cs" />
+    <Compile Include="Pages\Forms\TimeTableVariationPage.cs" />
+    <Compile Include="Pages\Forms\ViewKS1KS2TestMaterialPage.cs" />
+    <Compile Include="Pages\Portal\KS2PortalPage.cs" />
+    <Compile Include="Pages\Portal\MyActivityPage.cs" />
+    <Compile Include="Pages\Portal\PortalLoginPage.cs" />
+    <Compile Include="Test Cases\Forms\BecomeMarkerTestCases.cs" />
+    <Compile Include="Test Cases\Forms\CM_UploadTestMaterialTestCases.cs" />
+    <Compile Include="Test Cases\Forms\CM_UserCreationTestCases.cs" />
+    <Compile Include="Test Cases\Forms\CreateMarkerTestCases.cs" />
+    <Compile Include="Test Cases\Portal\AdditionalTimeTestCases.cs" />
+    <Compile Include="Test Cases\Portal\ChangeOrganisationSchoolTestCases.cs" />
+    <Compile Include="Test Cases\Portal\CompensatoryMarksTestCases.cs" />
+    <Compile Include="Test Cases\Portal\ConfirmHolidayDatesTestCase.cs" />
+    <Compile Include="Test Cases\Portal\EarlyOpeningApplicationTestCases.cs" />
+    <Compile Include="Test Cases\Portal\KS2HeadteachersDeclarationFormTestCase.cs" />
+    <Compile Include="Test Cases\Portal\KSOneTestOrderTestCases.cs" />
+    <Compile Include="Test Cases\Portal\KSTwoTestOrderTestCases.cs" />
+    <Compile Include="Test Cases\Portal\MarkerTrainingConfirmationTestCases.cs" />
+    <Compile Include="Test Cases\Portal\ModifiedKSTwoTestCases.cs" />
+    <Compile Include="Test Cases\Portal\LodgeComplaintTestCases.cs" />
+    <Compile Include="Test Cases\Portal\MaintainingLATestCases.cs" />
+    <Compile Include="Test Cases\Portal\ModifiedKSOneTestOrderTestCases.cs" />
+    <Compile Include="Test Cases\Portal\ManagePupilRegistrationTestCases.cs" />
+    <Compile Include="Test Cases\Portal\NotificationScribeTranscriptTestCases.cs" />
+    <Compile Include="Test Cases\Portal\PhonicsZeroOrderTestCases.cs" />
+    <Compile Include="Test Cases\Portal\OperationalIncResolutionTestCase.cs" />
+    <Compile Include="Test Cases\Portal\OutBoundCustomerContactTestCases.cs" />
+    <Compile Include="Test Cases\Portal\PupilCheatingTestCases.cs" />
+    <Compile Include="Test Cases\Portal\ScaningExceptionTestCase.cs" />
+    <Compile Include="Test Cases\Portal\ScaningResolutionTestCase.cs" />
+    <Compile Include="Test Cases\Portal\SchoolPortalContactsMangTestCases.cs" />
+    <Compile Include="Test Cases\Portal\SpecialConsiderationTestCases.cs" />
+    <Compile Include="Test Cases\Portal\SQAPortalContactManagementTestCases.cs" />
+    <Compile Include="Test Cases\Portal\TimeTableVariationTestCases.cs" />
+    <Compile Include="Test Cases\Portal\ViewKS1KS2TestMaterailTestCases.cs" />
+    <Compile Include="Utilities\DatabaseUtil.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\ExcelUtil.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TestData\DEV_TEST_ENV_TestData.xlsx" />
+    <None Include="TestData\QA_ENV_TestData.xlsx" />
+    <None Include="TestData\DEV_ENV_TestData.xlsx" />
+    <None Include="Resources\TestMaterial.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Reports\" />
+    <Folder Include="Resources\Downloads\" />
+    <Folder Include="Screenshots\" />
+    <Folder Include="TestSuites\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Logs\STALog.txt" />
+    <Content Include="readme.txt" />
+    <Content Include="Resources\SampleMoreInfoDoc.PNG" />
+    <Content Include="Resources\TestMaterial.txt" />
+    <Content Include="TestData\SampleMoreInfoDoc.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\NUnit3TestAdapter.3.11.1\build\net35\NUnit3TestAdapter.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NUnit3TestAdapter.3.11.1\build\net35\NUnit3TestAdapter.props'))" />
+    <Error Condition="!Exists('..\packages\Selenium.WebDriver.ChromeDriver.2.44.0\build\Selenium.WebDriver.ChromeDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Selenium.WebDriver.ChromeDriver.2.44.0\build\Selenium.WebDriver.ChromeDriver.targets'))" />
+    <Error Condition="!Exists('..\packages\NUnit.3.11.0\build\NUnit.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NUnit.3.11.0\build\NUnit.props'))" />
+  </Target>
+  <Import Project="..\packages\Selenium.WebDriver.ChromeDriver.2.44.0\build\Selenium.WebDriver.ChromeDriver.targets" Condition="Exists('..\packages\Selenium.WebDriver.ChromeDriver.2.44.0\build\Selenium.WebDriver.ChromeDriver.targets')" />
+</Project>

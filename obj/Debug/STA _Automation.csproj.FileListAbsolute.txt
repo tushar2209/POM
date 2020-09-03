@@ -1,0 +1,63 @@
+C:\Automation -STA\OneDigital_old\STA _Automation\bin\Debug\NUnit3.TestAdapter.dll
+C:\Automation -STA\OneDigital_old\STA _Automation\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Automation -STA\OneDigital_old\STA _Automation\bin\Debug\nunit.engine.dll
+C:\Automation -STA\OneDigital_old\STA _Automation\bin\Debug\nunit.engine.api.dll
+C:\Automation -STA\OneDigital_old\STA _Automation\bin\Debug\STA _Automation.dll.config
+C:\Automation -STA\OneDigital_old\STA _Automation\bin\Debug\STA _Automation.dll
+C:\Automation -STA\OneDigital_old\STA _Automation\bin\Debug\STA _Automation.pdb
+C:\Automation -STA\OneDigital_old\STA _Automation\bin\Debug\Excel.dll
+C:\Automation -STA\OneDigital_old\STA _Automation\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Automation -STA\OneDigital_old\STA _Automation\bin\Debug\log4net.dll
+C:\Automation -STA\OneDigital_old\STA _Automation\bin\Debug\Newtonsoft.Json.dll
+C:\Automation -STA\OneDigital_old\STA _Automation\bin\Debug\nunit.framework.dll
+C:\Automation -STA\OneDigital_old\STA _Automation\bin\Debug\RazorEngine.dll
+C:\Automation -STA\OneDigital_old\STA _Automation\bin\Debug\RelevantCodes.ExtentReports.dll
+C:\Automation -STA\OneDigital_old\STA _Automation\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Automation -STA\OneDigital_old\STA _Automation\bin\Debug\System.Web.Razor.dll
+C:\Automation -STA\OneDigital_old\STA _Automation\bin\Debug\WebDriver.dll
+C:\Automation -STA\OneDigital_old\STA _Automation\bin\Debug\WebDriver.Support.dll
+C:\Automation -STA\OneDigital_old\STA _Automation\bin\Debug\Excel.pdb
+C:\Automation -STA\OneDigital_old\STA _Automation\bin\Debug\log4net.xml
+C:\Automation -STA\OneDigital_old\STA _Automation\bin\Debug\Newtonsoft.Json.xml
+C:\Automation -STA\OneDigital_old\STA _Automation\bin\Debug\nunit.framework.pdb
+C:\Automation -STA\OneDigital_old\STA _Automation\bin\Debug\nunit.framework.xml
+C:\Automation -STA\OneDigital_old\STA _Automation\bin\Debug\RazorEngine.xml
+C:\Automation -STA\OneDigital_old\STA _Automation\bin\Debug\System.Web.Razor.xml
+C:\Automation -STA\OneDigital_old\STA _Automation\bin\Debug\WebDriver.xml
+C:\Automation -STA\OneDigital_old\STA _Automation\bin\Debug\WebDriver.Support.xml
+C:\Automation -STA\OneDigital_old\STA _Automation\obj\Debug\STA _Automation.csproj.CoreCompileInputs.cache
+C:\Automation -STA\OneDigital_old\STA _Automation\obj\Debug\STA _Automation.csproj.CopyComplete
+C:\Automation -STA\OneDigital_old\STA _Automation\obj\Debug\STA _Automation.dll
+C:\Automation -STA\OneDigital_old\STA _Automation\obj\Debug\STA _Automation.pdb
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\bin\Debug\nunit.engine.dll
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\bin\Debug\nunit.engine.api.dll
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\bin\Debug\STA _Automation.dll.config
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\bin\Debug\STA _Automation.dll
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\bin\Debug\STA _Automation.pdb
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\bin\Debug\Excel.dll
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\bin\Debug\log4net.dll
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\bin\Debug\Newtonsoft.Json.dll
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\bin\Debug\nunit.framework.dll
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\bin\Debug\RazorEngine.dll
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\bin\Debug\RelevantCodes.ExtentReports.dll
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\bin\Debug\System.Web.Razor.dll
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\bin\Debug\WebDriver.dll
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\bin\Debug\WebDriver.Support.dll
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\bin\Debug\Excel.pdb
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\bin\Debug\log4net.xml
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\bin\Debug\Newtonsoft.Json.xml
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\bin\Debug\nunit.framework.pdb
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\bin\Debug\nunit.framework.xml
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\bin\Debug\RazorEngine.xml
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\bin\Debug\System.Web.Razor.xml
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\bin\Debug\WebDriver.xml
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\bin\Debug\WebDriver.Support.xml
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\obj\Debug\STA _Automation.csprojAssemblyReference.cache
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\obj\Debug\STA _Automation.csproj.CoreCompileInputs.cache
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\obj\Debug\STA _Automation.csproj.CopyComplete
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\obj\Debug\STA _Automation.dll
+C:\Users\P10461551\source\repos\OneDigital\STA _Automation\obj\Debug\STA _Automation.pdb
